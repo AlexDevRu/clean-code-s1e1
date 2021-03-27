@@ -63,7 +63,7 @@ button{
 }
 /* Heading */
 .title,
-.add-elem-label {
+.add-elem__label {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -89,14 +89,14 @@ button{
 }
 
 /* New Task */
-.add-elem-label {
+.add-elem__label {
   display: block;
   margin: 0 0 20px;
 }
-.add-elem-input {
+.add-elem__input {
   width: 318px;
 }
-.add-elem-btn:hover {
+.add-elem__btn:hover {
   color: #0fc57c;
 }
 
@@ -114,10 +114,10 @@ button{
   vertical-align: middle;
 }
 
-.task-item-checkbox {
+.task-item__checkbox {
   margin: 0 10px;
 }
-.task-item-label {
+.task-item__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -126,7 +126,7 @@ button{
 .task-item > .input-text {
   width: 226px;
 }
-.task-item > .delete:hover {
+.task-item__delete:hover {
   color: #cf2323;
 }
 .delete-icon {
@@ -149,11 +149,11 @@ button{
   display: none;
 }
 
-.task-item.edit-mode .input-text {
+.task-item_edit-mode .input-text {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode .task {
+.task-item_edit-mode .task-item__label {
   display: none;
 }
